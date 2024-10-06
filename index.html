@@ -24,6 +24,21 @@
       </div>
     </div>
 
+    <!-- Detalles de Pleículas -->
+    <div class="offcanvas offcanvas-top bg-light text-dark" id="offcanvasMovie" tabindex="-1">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasMovieLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p id="movieOverview"></p>
+        <p><strong>Géneros:</strong> <span id="movieGenres"></span></p>
+        <p><strong>Año:</strong> <span id="movieYear"></span></p>
+        <p><strong>Duración:</strong> <span id="movieDuration"></span> min</p>
+      </div>
+    </div>
+  </main>
+
     <div class="album">
       <ul class="list-group container" id="lista">
       </ul>
@@ -42,7 +57,7 @@
   </footer>
 
   <script src="js/bootstrap.bundle.min.js"></script>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
